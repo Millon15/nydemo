@@ -1,0 +1,74 @@
+body {
+    background-color: #000;
+}
+
+.start{
+    position: relative;
+    margin: auto;
+    background-image: url(../sprites/press_start.jpeg);
+    background-size: 100%;
+    cursor: pointer;
+    width: 637px;
+    height: 358px;
+}
+
+.main{
+    position: relative;
+    margin: auto;
+    background-image: url(../sprites/bg.png);
+    background-size: 100%;
+    width: 1024px;
+    height: 767px;
+    visibility: hidden;
+}
+
+.scroller {
+    position: relative;
+    margin: auto;
+    top: 578px;
+    left: 220px;
+    width: 180px;
+    height: 200px;
+    text-align: center;
+}
+
+.scroller div {
+    width: 5px;
+    height: 5px;
+    position: relative;
+    display: inline-block;
+    cursor: crosshair;
+    margin-top: 2px;
+}
+
+.bitmap {
+    position: relative;
+    background-color: #000;
+    margin: auto;
+    width: 112px;
+    height: 112px;
+    visibility: hidden;
+}
+
+.bitmap div {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    margin: 1px;
+}
+
+.default {
+}
+
+.set {
+    background-color: #ffff00;
+}
+
+.default:hover {
+    background-color: #6fc6ff; ;
+}
+
+.pick {
+    background-color: #ff0000;
+}
