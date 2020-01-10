@@ -1,8 +1,6 @@
 # nydemo
 New year javascript demo with wishes
 
- Sound by -=Dubmood=- (2003): http://www.pouet.net/user.php?who=2100
- 8 Bit ZX graphic art: based on picture by -=TeeRay=- (1997): https://zxart.ee/eng/authors/t/teeray/
 
  I decided to relax, remember ZX speccy and slightly refresh JS ...
  Each point of the scroller is an element of space with its own properties: coordinates, state.
@@ -14,5 +12,8 @@ New year javascript demo with wishes
  Approximately how it is done when copying from the register of flags (overflow bit) when scrolling the Z80 Accumulator register on ZX Speccy.
  For saving memory and acceleration, space points methods moved to prototype.
 
+Just open the index.html
+
  Sound by -=Dubmood=- (2003): http://www.pouet.net/user.php?who=2100
+
  8 Bit ZX graphic art: based on picture by -=TeeRay=- (1997): https://zxart.ee/eng/authors/t/teeray/
